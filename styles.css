@@ -20,3 +20,21 @@ body {
 #nav a:hover {
     text-decoration: underline;
 }
+#content {
+    margin: 20px;
+    display: flex;
+}
+h1 {
+    margin: 10px;
+    font-weight: bold;
+}
+p:last-child {
+    font-weight: bold;
+}
+.image-container img {
+    display: inline-block;
+    margin: 10px;
+    height: 500px;
+    width: 330px;
+    object-fit: cover;
+}
