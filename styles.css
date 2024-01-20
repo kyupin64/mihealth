@@ -76,15 +76,19 @@ body {
 }
 .image-caption p {
     position: absolute;
-    right: 5%;
+    right: 5px;
     font-weight: 600;
-    padding: 10px 30px;
+    font-size: .9em;
 }
 .image-caption p:first-of-type {
-    bottom: 50px;
+    bottom: 45.5px;
     background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
 }
 .image-caption p:last-of-type {
-    bottom: 12px;
+    bottom: 9px;
     background-color: rgb(109, 198, 50);
+    padding: 10px 20px 10px 0;
+    width: 42%;
+    text-align: right;
 }
