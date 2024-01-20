@@ -9,7 +9,7 @@ body {
 #header {
     display: flex;
     flex-flow: row wrap;
-    padding: 20px 60px;
+    padding: 20px 7%;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
@@ -33,7 +33,7 @@ body {
     text-decoration: underline;
 }
 #content {
-    margin: 3% 4%;
+    margin: 3% 7%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body {
 .text-container h1 {
     margin-bottom: 20px;
     font-weight: 900;
-    font-size: 4em;
+    font-size: 3.8em;
 }
 .text-container p {
     max-width: 300px;
@@ -52,7 +52,7 @@ body {
 }
 .text-container p:last-child {
     font-weight: 600;
-    margin: 20px 0;
+    margin-top: 30px;
 }
 .image-caption {
     display: inline-block;
@@ -60,8 +60,8 @@ body {
 }
 .image-caption img {
     margin: 5px;
-    height: 500px;
-    width: 330px;
+    height: 450px;
+    width: 295px;
     object-fit: cover;
 }
 .image-caption p {
