@@ -4,7 +4,7 @@
     font-family: 'Inter', sans-serif;
 }
 body {
-    background-color: #ddd;
+    background-color: #eee;
 }
 #header {
     display: flex;
@@ -39,10 +39,11 @@ body {
     text-decoration: underline;
 }
 #content {
-    margin: 3% 7%;
+    padding: 3% 7%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    background-image: url(images/leaves.webp);
 }
 .text-container {
     margin-right: 6%;
