@@ -32,17 +32,32 @@ body {
     margin: 20px;
     display: flex;
 }
-h1 {
+.text-container h1 {
     margin: 10px;
     font-weight: bold;
 }
-p:last-child {
+.text-container p:last-child {
     font-weight: bold;
 }
-.image-container img {
+.image-caption {
     display: inline-block;
+    position: relative;
+}
+.image-caption img {
     margin: 10px;
     height: 500px;
     width: 330px;
     object-fit: cover;
+}
+.image-caption p {
+    position: absolute;
+    right: 5%;
+}
+.image-caption p:first-of-type {
+    bottom: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.image-caption p:last-of-type {
+    bottom: 5%;
+    background-color: rgb(109, 198, 50);
 }
