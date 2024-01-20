@@ -4,13 +4,14 @@
     font-family: 'Inter', sans-serif;
 }
 body {
-    background-color: #c2c2c2;
+    background-color: #ddd;
 }
 #header {
     display: flex;
-    padding: 20px;
+    flex-flow: row wrap;
+    padding: 20px 60px;
     background-color: rgb(255, 255, 255);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #logo h2 {
     display: inline;
@@ -32,23 +33,33 @@ body {
     text-decoration: underline;
 }
 #content {
-    margin: 20px;
+    margin: 3% 4%;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.text-container {
+    margin-right: 6%;
 }
 .text-container h1 {
-    margin: 10px;
+    margin-bottom: 20px;
     font-weight: 900;
-    font-size: 3.6em;
+    font-size: 4em;
+}
+.text-container p {
+    max-width: 300px;
+    font-size: 1.2em;
 }
 .text-container p:last-child {
     font-weight: 600;
+    margin: 20px 0;
 }
 .image-caption {
     display: inline-block;
     position: relative;
 }
 .image-caption img {
-    margin: 10px;
+    margin: 5px;
     height: 500px;
     width: 330px;
     object-fit: cover;
@@ -57,12 +68,13 @@ body {
     position: absolute;
     right: 5%;
     font-weight: 600;
+    padding: 10px 30px;
 }
 .image-caption p:first-of-type {
-    bottom: 10%;
+    bottom: 50px;
     background-color: rgb(255, 255, 255);
 }
 .image-caption p:last-of-type {
-    bottom: 5%;
+    bottom: 12px;
     background-color: rgb(109, 198, 50);
 }
