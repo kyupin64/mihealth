@@ -12,6 +12,14 @@ body {
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
+#logo h2:first-child{
+    display: inline;
+    color: rgb(201, 61, 54);
+}
+#logo h2:last-child{
+    display: inline;
+    color: rgb(109, 198, 50);
+}
 #nav a {
     margin: 0 10px;
     color: rgb(0, 0, 0);
