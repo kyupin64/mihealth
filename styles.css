@@ -24,6 +24,9 @@ body {
 #logo h2:last-child {
     color: rgb(109, 198, 50);
 }
+#nav {
+    margin: auto 0;
+}
 #nav a {
     margin: 0 10px;
     color: rgb(0, 0, 0);
@@ -50,9 +53,16 @@ body {
     max-width: 300px;
     font-size: 1.2em;
 }
+.text-container a {
+    text-decoration: none;
+}
+.text-container a:hover {
+    text-decoration: underline;
+}
 .text-container p:last-child {
     font-weight: 600;
     margin-top: 30px;
+    color: #000;
 }
 .image-caption {
     display: inline-block;
